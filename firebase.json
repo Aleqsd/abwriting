@@ -1,0 +1,12 @@
+{
+  "hosting": [{
+    "site": "abwriting-c3619",
+    "public": "public",
+    "cleanUrls": true,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }]
+}
