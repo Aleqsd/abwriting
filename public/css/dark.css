@@ -131,10 +131,10 @@ body.dark .dizme_tm_header .menu ul li a {
   color: #fff;
 }
 body.dark .dizme_tm_header .menu ul li.current a {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .dizme_tm_header .menu ul li a:hover {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .dizme_tm_hero .job p {
   color: #fff;
@@ -159,10 +159,10 @@ body.dark .dizme_tm_portfolio .portfolio_filter ul li a {
   color: #fff;
 }
 body.dark .dizme_tm_portfolio .portfolio_filter ul li a.current {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .dizme_tm_portfolio .portfolio_filter ul li a:hover {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .progress_inner span.label {
   color: #fff;
@@ -184,7 +184,7 @@ body.dark .dizme_tm_news ul li .details .title a {
   color: #fff;
 }
 body.dark .dizme_tm_news ul li .details .title a:hover {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .dizme_tm_contact input {
   color: #b9b5c9;
@@ -201,13 +201,13 @@ body.dark .dizme_tm_copyright .left a {
   color: #b9b5c9;
 }
 body.dark .dizme_tm_copyright .left a:hover {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .dizme_tm_copyright .right ul li a {
   color: #b9b5c9;
 }
 body.dark .dizme_tm_copyright .right ul li a:hover {
-  color: #f75023;
+  color: #248aaa;
 }
 body.dark .progressbar {
   background-color: rgba(255, 255, 255, 0.08);

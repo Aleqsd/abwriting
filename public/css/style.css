@@ -333,7 +333,7 @@ h6 { font-size: 16px; }
 .dizme_tm_mobile_menu .download_cv a{
 	color: #fff !important;
 	border-radius: 50px;
-	background-color: #f75023;
+	background-color: #248aaa;
 	padding: 7px 40px !important;
 }
 .dizme_tm_mobile_menu .hamburger-inner, 
@@ -396,10 +396,10 @@ h6 { font-size: 16px; }
 	margin-right: 0px;
 }
 .dizme_tm_header .menu ul li.current a{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_header .menu ul li a:hover{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_header .menu ul li a{
 	text-decoration: none;
@@ -418,7 +418,7 @@ h6 { font-size: 16px; }
 	top: 3px;
 }
 .dizme_tm_header .download_cv a{
-	border: 2px solid #f75023;
+	border: 2px solid #248aaa;
 	border-radius: 50px;
 	padding: 8px 35px 7px 35px;
 	position: relative;
@@ -440,7 +440,7 @@ h6 { font-size: 16px; }
 	position: absolute;
 	content: "";
 	z-index: 0;
-	background-color: #f75023;
+	background-color: #248aaa;
 	left: -5px;
 	right: -5px;
 	bottom: -5px;
@@ -465,7 +465,7 @@ h6 { font-size: 16px; }
 
 .greenText{color: #1cbe59 !important;}
 .purpleText{color: #8067f0 !important;}
-.orangeText{color: #f75023 !important;}
+.orangeText{color: #248aaa !important;}
 .yellowText{color: #f0c45c !important;}
 
 .orangeBackground{background-color: #fedfd7 !important;}
@@ -478,7 +478,7 @@ h6 { font-size: 16px; }
 	clear: both;
 	float: left;
 	position: relative;
-	margin-bottom: 190px;
+	/* margin-bottom: 190px; */
 }
 .dizme_tm_hero .background{
 	position: absolute;
@@ -548,7 +548,7 @@ h6 { font-size: 16px; }
 	font-family: 'Jost', sans-serif;
 	font-weight: 500;
 	border-radius: 50px;
-	border: 2px solid #f75023;
+	border: 2px solid #248aaa;
 	padding: 14px 48px 13px 48px;
 	position: relative;
 	overflow: hidden;
@@ -567,7 +567,7 @@ h6 { font-size: 16px; }
 	position: absolute;
 	content: "";
 	z-index: 0;
-	background-color: #f75023;
+	background-color: #248aaa;
 	left: -5px;
 	right: -5px;
 	bottom: -5px;
@@ -615,6 +615,30 @@ h6 { font-size: 16px; }
 .dizme_tm_hero .avatar img{
 	max-height: 650px;
 }
+.dizme_tm_hero .avatar .figma img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    height: 65%;
+}
+.dizme_tm_hero .avatar .photoshop img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    height: 65%;
+}
+.dizme_tm_hero .avatar .illustrator img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 65%;
+    height: 65%;
+}
 .dizme_tm_hero .skills{
 	display: inline-block;
 	width: 75px;
@@ -624,12 +648,12 @@ h6 { font-size: 16px; }
 	box-shadow: 24px 0px 72px rgba(54,32,152,.3);
 }
 .dizme_tm_hero .skills.illustrator{
-	background-color: #390000;
+	background-color: #fff;
 	top: 20px;
 	left: -30px;
 }
 .dizme_tm_hero .skills.photoshop{
-	background-color: #001631;
+	background-color: #fff;
 	right: 70px;
 	top: 80px;
 }
@@ -638,6 +662,7 @@ h6 { font-size: 16px; }
 	bottom: 60px;
 	left: 140px;
 }
+
 .dizme_tm_hero .skills .svg{
 	position: absolute;
 	top: 50%;
@@ -874,7 +899,7 @@ h6 { font-size: 16px; }
 }
 .dizme_tm_about .right .title span{
 	display: inline-block;
-	color: #f75023;
+	color: #248aaa;
 	font-size: 24px;
 	font-weight: 500;
 	font-family: 'Jost', sans-serif;
@@ -927,7 +952,7 @@ h6 { font-size: 16px; }
 .dizme_tm_main_title span{
 	font-size: 24px;
 	font-weight: 500;
-	color: #f75023;
+	color: #248aaa;
 	font-family: 'Jost', sans-serif;
 	display: inline-block;
 	margin-bottom: 6px;
@@ -982,10 +1007,10 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .dizme_tm_portfolio .portfolio_filter ul li a.current{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_portfolio .portfolio_filter ul li a:hover{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_portfolio .portfolio_list{
 	width: 100%;
@@ -1433,7 +1458,7 @@ h6 { font-size: 16px; }
 	right: 100%;
 	bottom: -2px;
 	transition: all 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
-	color: #f75023;
+	color: #248aaa;
 	font-size: 16px;
 	font-family: 'Jost', sans-serif;
 }
@@ -1494,7 +1519,7 @@ h6 { font-size: 16px; }
 	height: auto;
 	clear: both;
 	float: left;
-	padding-top: 178px;
+	padding-top: 130px;
 	margin-bottom: 160px;
 	position: relative;
 }
@@ -1557,7 +1582,7 @@ h6 { font-size: 16px; }
 }
 .dizme_tm_services .service_list .price span{
 	font-size: 24px;
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_services .service_list .icon{
 	position: absolute;
@@ -1652,7 +1677,7 @@ h6 { font-size: 16px; }
 }
 .dizme_tm_modalbox .service_popup_informations .main_title span span{
 	font-size: 24px;
-    color: #f75023;
+    color: #248aaa;
 }
 .dizme_tm_modalbox .service_popup_informations .descriptions{
 	width: 100%;
@@ -1724,7 +1749,7 @@ h6 { font-size: 16px; }
 .dizme_tm_testimonials .icon .svg{
 	width: 65px;
 	height: 65px;
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_testimonials .text{
 	margin-bottom: 51px;
@@ -1770,7 +1795,7 @@ h6 { font-size: 16px; }
 .dizme_tm_testimonials .owl-theme .owl-dots .owl-dot span{
 	width: 15px;
 	height: 15px;
-	background-color: #f75023;
+	background-color: #248aaa;
 	position: relative;
 	margin: 0px 12px;
 }
@@ -2083,7 +2108,7 @@ h6 { font-size: 16px; }
 }
 .dizme_tm_news ul li .details .category a{
 	font-size: 16px;
-	color: #f75023;
+	color: #248aaa;
 	font-family: 'Jost', sans-serif;
 	text-decoration: none;
 	font-weight: 500;
@@ -2106,7 +2131,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .dizme_tm_news ul li .details .title a:hover{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_news .news_hidden_details{
 	display: none;
@@ -2281,7 +2306,7 @@ h6 { font-size: 16px; }
 	font-size: 18px;
 	text-transform: capitalize;
 	font-weight: 500;
-	background-color: #f75023;
+	background-color: #248aaa;
 	padding: 0px 35px;
 }
 
@@ -2353,7 +2378,7 @@ h6 { font-size: 16px; }
 	        transition: all .3s ease;
 }
 .dizme_tm_contact .left .short a:hover{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_contact .right{
 	width: 50%;
@@ -2493,7 +2518,7 @@ input[type=number] {
 	        transition: all .3s ease;
 }
 .dizme_tm_copyright .left a:hover{
-	color: #f75023;
+	color: #248aaa;
 }
 .dizme_tm_copyright .right ul{
 	margin: 0px;
@@ -2518,7 +2543,7 @@ input[type=number] {
 	        transition: all .3s ease;
 }
 .dizme_tm_copyright .right ul li a:hover{
-	color: #f75023;
+	color: #248aaa;
 }
 
 /*---------------------------------------------------*/
@@ -2541,7 +2566,7 @@ input[type=number] {
   width: 6px;
   height: 6px;
   z-index: 100;
-  background-color: #f75023;
+  background-color: #248aaa;
   -webkit-transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
@@ -2550,7 +2575,7 @@ input[type=number] {
   margin-top: -40px;
   width: 80px;
   height: 80px;
-  background-color: #f75023;
+  background-color: #248aaa;
   opacity: .3;
 }
 .cursor-outer {
@@ -2558,7 +2583,7 @@ input[type=number] {
   margin-top: -15px;
   width: 30px;
   height: 30px;
-  border: 2px solid #f75023;
+  border: 2px solid #248aaa;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   z-index: 100;
@@ -2969,7 +2994,6 @@ input[type=number] {
 	.dizme_tm_modalbox .service_popup_informations .main_title span span{font-size: 16px;}
 	.dizme_tm_modalbox .service_popup_informations .main_title h3{margin-bottom: 0px;}
 	.dizme_tm_modalbox .news_popup_informations .details h3{font-size: 19px;}
-	.dizme_tm_hero{margin-bottom: 135px;}
 	.dizme_tm_about{padding-top: 50px;}
 	.dizme_tm_portfolio{padding-top: 113px;margin-bottom: 88px;}
 	.dizme_tm_portfolio .portfolio_filter{padding-top: 53px;padding-bottom: 46px;}
