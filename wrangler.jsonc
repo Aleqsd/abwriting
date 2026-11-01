@@ -1,0 +1,18 @@
+// Cloudflare Worker serving https://abwriting.net from the static snapshot in site/.
+// Deploy: `npx wrangler deploy` (Workers Builds runs it on every push to main).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "abwriting",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  "account_id": "7b9ee223c6a171ffa7672f2c34bf7c16",
+  "assets": {
+    "directory": "./site",
+    "binding": "ASSETS",
+    "run_worker_first": true,
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true,
+  "preview_urls": false
+}
